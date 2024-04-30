@@ -26,6 +26,14 @@ function secret() {
 
 field_show.addEventListener('click', secret);
 
+function changeBackgroundColor() {
+    var bodyElement = document.getElementById('Jody');
+    if (bodyElement) {
+        bodyElement.style.backgroundColor = 'white';
+    }
+}
+
+
 function gfg(n) {
     remove();
     for (let i = 0; i < n; i++) {
@@ -48,13 +56,6 @@ function remove() {
     }
 }
 
-function changeBackgroundColor() {
-    var bodyElement = document.getElementById('Jody');
-    if (bodyElement) {
-        bodyElement.style.backgroundColor = 'white';
-    }
-}
-
 function saveData() {
     var inputValue = document.getElementById("textInput").value;
     localStorage.setItem("data", inputValue);
@@ -69,6 +70,21 @@ function loadData() {
         output.innerHTML = "No data found!";
     }
 }
+
+function displayNotification(message) {
+    //new div element for notification
+    var notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.textContent = message;
+  
+    // notification to be part of body
+    document.body.appendChild(notification);
+  
+    // Remove the notification after 5 seconds
+    setTimeout(function() {
+        document.body.removeChild(notification);
+    }, 5000);
+  }
 
 window.onload = function() {
     displayNotification('Welcome to our site! Hope you find the movie that you like');
