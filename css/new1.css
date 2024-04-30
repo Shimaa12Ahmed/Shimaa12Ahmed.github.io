@@ -1,0 +1,251 @@
+  /* carton */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 500px;
+}
+.image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit:0 ;
+    margin: 10px;
+    border-radius: 14px;
+}
+#Bdy
+ { background-image:url(za.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #26af0e;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.search-container {
+    float: right;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.search-container input[type=text] {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+.search-container button {
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer-box {
+width:300px ;
+height:250px ;
+background-color: rgb(43, 198, 43);
+border: 1px solid #ccc;
+padding: 20px;
+text-align: center;
+position: absolute;
+bottom: 200px;
+left: 10%;
+border-radius: 50px;
+margin-right: 110px;
+
+}
+
+
+#TG {
+    width: 40%;
+  height: 60%;
+    margin-bottom: 200px;
+    border-collapse: collapse;
+    background-color: white;
+  position: absolute;
+  top: 440px;
+  left: 20px;
+    
+    
+}
+#TG  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  
+}
+#TG  th {
+    background-color: rgb(30, 134, 30);
+    height: 50px;
+}
+
+#FH {
+background-color:rgb(11, 144, 20) ;
+color: rgb(12, 12, 227);
+padding: 10px 10px;
+position: absolute;
+bottom: -500px;
+width: 100%;
+height: 40px;
+text-align: center;
+}
+
+ /* docu*/
+.navbar {
+    overflow: hidden;
+    background-color: rgb(154, 82, 11);
+    width: 100%;
+    height: 60px;
+    margin-bottom: 1px;
+    
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: right;
+    font-size: 20px;
+    display: block;
+    color: beige(39, 147, 39);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  
+  
+  .nat form {
+        display: flex;
+        align-items: center;
+    }
+    input[type="search"] {
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin-left: 0px;
+      }
+      button[type="submit"] {
+          padding: 5px 10px;
+          background-color: #080808;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      
+      }
+  
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: rgb(235, 235, 152);
+      color: rgb(7, 7, 7);
+    }
+  
+  #up
+  {
+  color: rgb(144, 15, 15);
+  margin-bottom: 50px;
+  margin-top: 10%;
+  
+  
+  }
+  .video-container {
+      display: block;
+    justify-content: space-between;
+      align-items: center;
+      height: 40vh;
+      margin-right: 50px;
+      gap: 1px;
+  
+  }
+  
+  .vio2 {
+      width: 80%;
+      max-width: 600px;
+      max-height: 300px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+  }
+  .movie-list > li {
+      margin-bottom: 100px;
+  }
+  
+  .movie-list > li > h2 {
+      background-color: saddlebrown;
+      padding: 10px;
+      margin-bottom: 100px;
+      right: 50px;
+      font-size: 14px ;
+  }
+  
+  .movie-list .UL {
+      padding: 0;
+  }
+  
+  .movie-list .UL li {
+      margin-left: 20px;
+  }
+  .styled-list {
+      list-style-type: 2px;
+      padding: 0;
+      border:10px saddlebrown; /* إضافة حافة بلون رمادي */
+      border-radius:50px; /* إضافة حافة مستديرة */
+  }
+  
+  .movie-list ul{ 
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .UL{color: black;
+  }
+   
+  
+    
+  #movie-list ul{
+    margin-top:20%;}
+  
+  .box {
+    width: 200px;
+    height: 600px;
+    background-color: saddlebrown;
+    border: 2px solid #333;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    right: 0;
+  
+  }
+  #bottomLeftIframe {
+              position: absolute;
+             bottom:450px;
+              width: 400px; /* تعديل حجم الإطار حسب الاحتياجات */
+              height: 270px; /* تعديل حجم الإطار حسب الاحتياجات */
+              border: 1px solid #583504;
+              right:300px;
+              
+          }
+          .local {
+      position: absolute;
+      top: 60px;
+      right: 0px;
+      padding: 20px;
+      
+    }
+    input[type="text"], button {
+        background-color: #a66112; /* لون خلفية حقل الإدخال والأزرار */
+        color: rgb(132, 70, 8); /* لون نص حقل الإدخال والأزرار */
+        width: 70px;
+      }

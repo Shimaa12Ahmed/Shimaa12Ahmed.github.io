@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> افلام وثائقية</title>
+    <link rel="stylesheet" href="css\theam.css">
+    </head>
+<body>
+    <div class="navbar">
+        <a href="index.html"> <u>Home  </u></a>
+        <a href="login.html"><u>Log In </u></a>
+        <a href="SignUp.html"><u>SignUp </u></a>
+        <a href="feed.html"> <u>FeedBack</u></a>      
+        <div class="nay">
+        </div> 
+        <div class="nas">
+         <form action="/search" method="get">
+           <input type="search" placeholder="ابحث هنا..." name="q">
+         <button type="submit">ابحث</button>
+          </form>
+         </div>  
+    </div> 
+
+
+<div class="video-container">
+  
+  <video class="vio2"  controls poster="images/sr.jpg"
+       src="media/vid.mp4" type="video/mp4">
+  </video>
+  
+  
+</div>
+  
+<h1 id="up"> <U>MORE FILMS: </U></h1>
+  
+    <img src="images/zq.jpg"      style="width: 300px; height: 300px;">
+    <img src="images/zx.jpg"      style="width: 300px; height: 300px;"> 
+  <img src="images/zy.jpg"      style="width: 300px; height: 300px;">
+ 
+ 
+
+
+
+<div class="local">
+<input type="text" id="textInput">
+<button onclick="saveData()">Save Data</button>
+<button onclick="loadData()">Load Data</button>
+<p id="output"></p>
+</div>
+  <div class="box">
+    <p></p>            
+      <div id="movie-list" >
+          <h2><p>احدث الافلام التاريخيه 2024</p></h2>
+           <ul class="UL">
+             <li class="ll" >GREYHOUD</li>
+             <li class="ll"  >GLADIATOR</li>
+             <li  class="ll"  >BRAVE HEART</li>
+             <!-- Add more movies for 2024 here -->
+           </ul>
+         
+         <hr>
+           <h2><p>احدث الافلام التاريخيه 2023</p></h2>
+           <ul class="UL">
+             <li>THE FINALE</li>
+             <li>MUNICH</li>
+             <li>HARRIET</li>
+           </ul>
+         </div>
+         <iframe id="bottomLeftIframe" src=https://mycima.wecima.show/category ></iframe>
+        
+</body>
+</html>
+<script type="text/javascript" src="javascript/main.js"></script>
+<style>
+body{
+  background-color: rgb(8, 8, 8);
+}
+</style>
