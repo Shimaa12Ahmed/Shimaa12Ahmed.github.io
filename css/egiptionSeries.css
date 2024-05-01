@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Colors */
+  body {
+    background:#8c7510d2;
+    color: #333;
+  }
+
+  fieldset {
+    background-color: #d6c4c4;
+  }
+
+  h3 {
+    text-align: center;
+    background-color: #b6abab;
+  }
+
+  p {
+    background-color: #b6abab;
+  }
+
+  h5 {
+  text-align: center;
+  }
+  
+  /* Box Model */
+  .box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 10px;
+  }
+  
+  /* Text */
+  p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  /* Float */
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  /* Display */
+  fieldset {
+    display: block;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  
